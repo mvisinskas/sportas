@@ -1,93 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+
+<!doctype html>
+<html lang="lt">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sporto tvarkaraštis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Material Design Lite</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <style>
+        .card-sportas {
+            width: 100%;
+        }
+    </style>
+</head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    
-    <br/>
-    
-    <div class="container">
-    
-    	<div class="row">
-    		<div class="page-header">
-    			<h2>
-    				&nbsp;&nbsp;
-    				<span class="glyphicon glyphicon-calendar"></span>
-    				Sporto tvarkaraštis
-    			</h2>
-    		</div>
-    	</div>
-    
-    	<div class="row">
-    		
-    		<div class="col-sm-4">
-    			<div class="panel panel-default">
-    				<div class="panel-heading"><strong>I. Kojos</strong></div>
-    				<ul class="list-group">
-						<li class="list-group-item">1. Pritūpimai (x2)</li>
-						<li class="list-group-item">2. Pritūpimai plačiai (x2)</li>
-						<li class="list-group-item">3. Įtūpstai (x3)</li>
-						<li class="list-group-item">4. Kojų kėlimas į šonus (x3)</li>
-						<li class="list-group-item">5. Kamuolio spaudimas kojomis (x3)</li>
-						<li class="list-group-item">6. Spyriai atgal (x3)</li>
-						<li class="list-group-item">7. Atsilenkimai (x3)</li>
-	  				</ul>
-    			</div>
-    		</div>
-    		
-    		<div class="col-sm-4">
-    			<div class="panel panel-default">
-    				<div class="panel-heading"><strong>II. Krūtinė</strong></div>
-    				<ul class="list-group">
-						<li class="list-group-item">1. Atsispaudimai (x3)</li>
-						<li class="list-group-item">2. Hantelių stūmimas gulsčiai (x3)</li>
-						<li class="list-group-item">3. Hantelių plėšimas (x3)</li>
-						<li class="list-group-item">4. Pullover su hanteliu (x3)</li>
-						<li class="list-group-item">5. Lygiagretės (x3)</li>
-						<li class="list-group-item">6. Kojų kėlimas (x3)</li>
-	  				</ul>
-    			</div>
-    		</div>
-    		
-    		<div class="col-sm-4">
-    			<div class="panel panel-default">
-    				<div class="panel-heading"><strong>III. Nugara ir pečiai</strong></div>
-    				<ul class="list-group">
-						<li class="list-group-item">1. Prisitraukimai (x3)</li>
-						<li class="list-group-item">2. Hantelio traukimas (x3)</li>
-						<li class="list-group-item">3. Hantelių kėlimas bicepsams (x3)</li>
-						<li class="list-group-item">4. Hantelių kėlimas į viršų (x3)</li>
-						<li class="list-group-item">5. Hantelių kėlimas į šalis (x3)</li>
-						<li class="list-group-item">6. Nugaros atlenkimai (x3)</li>
-	  				</ul>
-    			</div>
-    		</div>
-    		
-    	</div>
-    </div>
-    
-    
+<body class="mdl-color--grey-100 mdl-base">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.2.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
-  </body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Sportas</span>
+          </div>
+        </header>
+        
+        <main class="mdl-layout__content">
+          <div class="page-content">
+                <div class="mdl-grid">
+                    
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <div class="card-sportas mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">1. Diena</h2>
+                            </div>
+                            <ol>
+                                <li>Pritūpimai siaurai</li>
+                                <li>Kojų kėlimas į šonus</li>
+                                <li>Atsispaudimai</li>
+                                <li>Hantelių plėšimas</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <div class="card-sportas mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">2. Diena</h2>
+                            </div>
+                            <ol>
+                                <li>Pritūpimai plačiai</li>
+                                <li>Kamuolio spaudimas kojomis</li>
+                                <li>Prisitraukimai</li>
+                                <li>Kojų kėlimas</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <div class="card-sportas mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">3. Diena</h2>
+                            </div>
+                            <ol>
+                                <li>Įtūpstai</li>
+                                <li>Spyriai atgal</li>
+                                <li>Lygiagretės</li>
+                                <li>Atsilenkimai</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <div class="card-sportas mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">4. Diena</h2>
+                            </div>
+                            <ol>
+                                <li>Hantelio traukimas</li>
+                                <li>Hantelių kėlimas bicepsams</li>
+                                <li>Hantelių kėlimas į šalis</li>
+                                <li>Nugaros atlenkimai</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                </div>
+          </div>
+        </main>
+      </div>
+
+</body>
+
 </html>
